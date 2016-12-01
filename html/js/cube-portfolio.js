@@ -100,7 +100,7 @@
     $('#masnory-container').cubeportfolio({
         filters: '#filters-container',
         layoutMode: 'grid',
-        defaultFilter: '*',
+        defaultFilter: '.doors',  // Изменил фильтр по умолчанию с * на класс doors 
         animationType: 'flipOutDelay',
         gapHorizontal: 20,
         gapVertical: 20,
