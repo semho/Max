@@ -1492,7 +1492,7 @@ Footer light styles
 }
 
 .no-padding.img-2 {
-  background: url(../img/showcase-2.jpg) scroll center no-repeat;
+  background: url(../img/parts/door.jpg) scroll center no-repeat;
   background-size: cover;
   position: absolute;
   height: 100%;
@@ -2005,7 +2005,7 @@ h1.typed-text {
   margin-right: 10px;
   position: relative;
   text-align: center;
-  top: 5px;
+  top: -8px;
 }
 
 .services-box-icon i {
