@@ -225,13 +225,22 @@ pre:after, pre:before {
 .center-heading h2 strong {
   font-weight: 700;
 }
-
+.center-link-button{
+  text-align: center;
+}
 .center-line {
   display: inline-block;
   width: 70px;
   height: 1px;
   border-top: 1px solid #bbb;
   /* border-bottom: 1px solid $skincolor; */
+  margin: auto;
+}
+.center-line-white{
+  display: inline-block;
+  width: 70px;
+  height: 1px;
+  border-top: 1px solid #fff;
   margin: auto;
 }
 
@@ -2098,6 +2107,9 @@ h1.typed-text {
   background-color: #32c5d2;
   padding-top: 70px;
   padding-bottom: 40px;
+}
+.blue-bg .center-heading h2{
+  color: white;
 }
 
 .blue-bg .services-box i {
