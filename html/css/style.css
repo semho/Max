@@ -820,6 +820,13 @@ TOP BARS
 .top-bar .form-group {
   margin: 0px;
 }
+.form-group .btn {
+  background: #fff;
+}
+.form-group .btn:hover{
+  background: #32c5d2;
+}
+
 
 .top-bar .form-control:focus {
   width: 200px;
@@ -1616,12 +1623,8 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .form-control:focus {
-  border-color: #bbb;
+  border-color: #32c5d2;
   background: #FFF;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  box-shadow: none;
 }
 
 /*************parallax*************/
