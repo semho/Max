@@ -225,4 +225,39 @@ $(document).ready(function () {
         }
     });
     
- 
+ /*-------scroll to link------------*/
+ /*----переход в меню к разделу-----*/
+ $(document).ready(function(){
+    $(".navbar-collapse").on("click", "ul li a", function(event){
+        //отменяем нажатие по ссылке
+        event.preventDefault();
+        //берем индетификатор ссылки
+        var id = $(this).attr('href');
+        //узнаем высоту от начала страницы до блока с якорем
+        var top = $(id).offset().top-100;
+        //анимация перехода
+        $('body,html').animate({scrollTop:top},1500);
+
+        $(this).parents('ul.nav.navbar-nav').find('li.active').removeClass('active');
+        $(this).parent('li').addClass('active');
+    });
+ });
+
+/*----------кнопка наверх-----------*/
+ $(document).ready(function(){   
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('#scroller').fadeIn();
+        } else {
+            $('#scroller').fadeOut();
+        }
+    });
+    $('#scroller').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+});
+
+ /*-------end scroll to link--------*/

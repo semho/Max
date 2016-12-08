@@ -34,6 +34,7 @@
         <![endif]-->
     </head>
     <body>
+    <div id="scroller" class="fa fa-angle-double-up" aria-hidden="true"></div>
         <div class="top-bar-dark">            
             <div class="container">
                 <div class="row">
@@ -90,7 +91,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown active ">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Главная </a>
+                            <a href="/" class="dropdown-toggle" data-toggle="dropdown">Главная </a>
                             <!--<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                                 <li class="dropdown-submenu">
                                     <a tabindex="-1" href="#">Sliders </a>
@@ -155,7 +156,16 @@
                         </li>
                      	
                      	<li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости </a>
+                            <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">Наши работы </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="#blog" class="dropdown-toggle" data-toggle="dropdown">Акции </a>
+                            
+                        </li>
+
+                     	<li class="dropdown">
+                            <a href="#news" class="dropdown-toggle" data-toggle="dropdown">Новости </a>
                             
                         </li>
 
@@ -444,7 +454,7 @@
         </div><!--services container-->
 
         <div class="divide80"></div>
-        <div class="container">
+        <div class="container" id="portfolio">
             <div class="row">
                 <div class="col-md-12">
                     <div class="center-heading">
@@ -1193,7 +1203,7 @@
             </div>
         </div><!--testimonials v-2 end-->
         <div class="blue-bg">
-            <div class="container">
+            <div class="container" id="blog">
             	<div class="row">
                     <div class="col-md-12">
                         <div class="center-heading">
@@ -1327,7 +1337,7 @@
         <div class="divide70"></div>
 		<div class="our-team-v-2">
         	<div class="container">
-            <div class="row">
+            <div class="row" id="news">
                 <div class="col-md-12">
                     <div class="center-heading">
                         <h2>Наши новости</h2>
